@@ -1,5 +1,7 @@
-export function register() {
+export async function register() {
+  console.log("calling register...")
   if (process.env.NEXT_RUNTIME === 'nodejs') {
-    require('./appsignal.cjs');
+    console.log("runtime is nodejs...")
+    await import('./appsignal.cjs');
   }
 }
