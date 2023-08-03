@@ -12,10 +12,10 @@
   resolved "https://registry.yarnpkg.com/@alloc/quick-lru/-/quick-lru-5.2.0.tgz#7bf68b20c0a350f936915fcae06f58e32007ce30"
   integrity sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==
 
-"@appsignal/nodejs@^3.0.16":
-  version "3.0.16"
-  resolved "https://registry.yarnpkg.com/@appsignal/nodejs/-/nodejs-3.0.16.tgz#803d676f482db45e35fd81e8cc9a813441cf4de2"
-  integrity sha512-WudZKKV3wzORmUr5a6qfdDRblYt0iIsvMUc9HDjshEGx7tojT+OC6mhA56UFU/5kEF9ixjqLpFoh6DxXyLeqnw==
+"@appsignal/nodejs@^3.0.17":
+  version "3.0.17"
+  resolved "https://registry.yarnpkg.com/@appsignal/nodejs/-/nodejs-3.0.17.tgz#50bb4b1b4a1fffff1fc6b3f3fec7ba39741c72ca"
+  integrity sha512-NRSmCYqSVZPTf8msG3t1LZX+z/3cKBGPMwZfJM13P5MNAIhO/69hlgHlKNxcU8lGjp+r8eIlQ5IEmph5G0SkXw==
   dependencies:
     "@opentelemetry/api" "^1.4.1"
     "@opentelemetry/instrumentation-express" "^0.32.1"
