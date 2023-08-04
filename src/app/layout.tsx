@@ -14,7 +14,8 @@ export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
-}) {
+  }) {
+  console.log("Rendering...")
   logger.info('test info message');
   logger.error('test info message');
   return (
