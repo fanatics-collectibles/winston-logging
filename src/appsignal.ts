@@ -1,10 +1,9 @@
-const { Appsignal } = require("@appsignal/nodejs");
+import { Appsignal } from '@appsignal/nodejs';
 
-new Appsignal({
+export const appsignal = new Appsignal({
   active: true,
   name: 'test_logging',
   disableDefaultInstrumentations: [
-    // Add the following line inside the list
     '@opentelemetry/instrumentation-http',
   ],
 });
